@@ -16,10 +16,10 @@
 
 에러는 아니지만 댓글을 정말 빨리 자주 달면 에브리타임에서 댓글을 자주 달 수 없다고 막아요. 현 코드에서는 그러한 팝업이 뜨면 확인을 누르고 댓글이 달아질 때까지 계속 반복하는 형식이라 가끔씩 숫자를 넘어버리는 경우도 있어요. (아래 사진) 그러나 이건 아마 어떻게 해결할 수는 없을 것 같아요.
 
-<div align="center"><img src="images/jump.jpg" height="200px"/></div>
+<div align="center"><img src="images/jump.jpg" height="200px" width="353.2px"/></div>
 
 ## TMI :floppy_disk:
 
 1. 몇 시간 정도 정말 대충 짠 거라서 고칠 만한 점이 있을 것 같긴 한데요, 저는 이제 안할거고 관심 있으신 분들 가지고 노시라고 올렸어요.
 2. 컨셉을 위해 닉네임을 "하루종일에타하는사람"으로 바꿨는데 괜찮은 것 같네요.
-<div align="center"><img src="images/nick.jpg" height="80px"/></div>
+<div align="center"><img src="images/nick.jpg" height="80px" width="362.9px"/></div>
