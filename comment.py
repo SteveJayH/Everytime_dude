@@ -95,11 +95,11 @@ def comment(link_in=None):
                         driver.refresh()
                 except UnexpectedAlertPresentException as e:  # 댓글을 너무 많이 달아서 팝업이 뜨면 확인 버튼 누르기
                     print(str(e))
-                    obj = driver.switch_to_alert
+                    obj = driver.switch_to_alert()
                     obj.accept()
         except UnexpectedAlertPresentException as e:  # 댓글을 너무 많이 달아서 팝업이 뜨면 확인 버튼 누르기
             print(str(e))
-            obj = driver.switch_to_alert
+            obj = driver.switch_to_alert()
             obj.accept()
         except NoSuchElementException as e:  # 팝업으로 인해서 "vote"
             print(str(e))
