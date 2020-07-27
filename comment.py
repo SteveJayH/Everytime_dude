@@ -73,12 +73,14 @@ def comment(link_in=None):
         try:
             vote = driver.find_element_by_class_name("vote")  # 현재 vote 수 찾기
             vote = vote.text
-            vote_save = vote
+            # vote_save = vote
             
+            '''  Making error so that remarked.
             close = driver.find_element_by_class_name("close")  # "앱으로 이용해보세요" 팝업이 아래에 떠있는 경우 있는데 없애기
             if close is not None:
                 close.click()
-
+            '''
+            
             if int(vote_save) != int(vote):
                 try:
                     string = vote + "개"  # 댓글을 어떤 식으로 달지
